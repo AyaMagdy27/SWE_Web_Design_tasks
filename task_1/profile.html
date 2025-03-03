@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/svg+xml" href="images/vite.svg" />
+        <title>Profile</title>
+        <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            list-style: none;
+        }
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: rgb(240, 240, 240);
+        }
+        header {
+            border-bottom: 2px solid rgb(234, 184, 234);
+            box-shadow: 0 0 10px 0 #e394e3;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 7%;
+        }
+        .header .logo {
+            width: 80px;
+        }
+        .links ul {
+            display: flex;
+            justify-content: space-between;
+        }
+        .links ul li {
+            margin: 0 10px;
+        }
+        .img_sty {
+            width: 30px;
+        }
+
+        .main_heading {
+            display: flex;
+            color: #3b0764;
+            margin: 7%;
+        }
+
+        .main_heading .left_side,
+        .right_side1{
+            width: 50%;
+            padding: 20px;
+        }
+        .main_heading .left_side h1, .right_side1 h1 {
+            font-size: 2.5rem;
+            margin: 20px 0;
+        }
+        .main_heading .left_side h3{
+            font-size: 1.5rem;
+            margin: 10px 0;
+            background: linear-gradient(to right, #e394e3, #3B0764);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            font-size: 2.25rem; /* text-4xl */
+            letter-spacing: -0.025em;
+        }
+        .main_heading .left_side p, .right_side1 p {
+            font-size: 1.2rem;
+            line-height: 1.5;
+            margin: 20px 0;
+        }
+
+        .main_heading .left_side1 img {
+            width: 100%;
+            height: 60%;
+            border-radius: 20px;
+        }
+
+        .main_heading .right_side {
+            width: 50%;
+            text-align: center;
+        }
+
+        .main_heading .right_side img {
+            width: 50%;
+            border-radius: 10px;
+        }
+
+        .main_heading .right_side1 {
+            margin-left: 7%;
+        }
+
+
+    </style>
+    </head>
+    <body>
+        <!-------------- Start of Header Section ------------------>
+        <header>
+            <div class="header">
+                <img class="logo" src="images/logo1-CovE7LNO.png"
+                    alt="Logo Image">
+                <div class="links">
+                    <ul>
+                        <li><a
+                                href="https://www.linkedin.com/in/aya-magdy-15811b271"
+                                target="_blank" rel="noopener noreferrer"><img
+                                    class="img_sty"
+                                    src="images/5296501_linkedin_network_linkedin logo_icon (2).png"
+                                    alt></a></li>
+                        <li><a href="https://github.com/AyaMagdy27"
+                                target="_blank" rel="noopener noreferrer"><img
+                                    class="img_sty"
+                                    src="images/4747499_github_icon (1).png"
+                                    alt></a></li>
+                        <li><a href="https://wa.me/201555117246" target="_blank"
+                                rel="noopener noreferrer"><img class="img_sty"
+                                    src="images/4102606_applications_media_social_whatsapp_icon.png"
+                                    alt></a></li>
+                        <li><a href="tel:+201555117246" target="_blank"
+                                rel="noopener noreferrer"><img class="img_sty"
+                                    src="images/8665647_phone_flip_icon.png"
+                                    alt></a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-------------- End of Header Section ------------------->
+
+        <!-------------- Start of Hero Section ------------------->
+        <section>
+            <div class="main_heading">
+                <div class="left_side">
+                    <h1>Aya Magdy </h1>
+                    <h3>Software Engineer</h3>
+                    <p>
+                        Dynamic and dedicated Frontend Developer with over two
+                        years
+                        of hands-on experience in building visually engaging and
+                        user-centric web applications.
+                        Equipped with a strong foundation in mathematics and
+                        extensive expertise in modern frontend technologies,
+                        I am eager to contribute to innovative projects by
+                        crafting
+                        efficient, scalable, and high-performance digital
+                        solutions.
+                    </p>
+                </div>
+                <div class="right_side">
+                    <img src="images/hero1-CnYXpYvY.png" alt="Profile Image">
+                </div>
+            </div>
+        </section>
+        <!-------------- End of Hero Section -------------------->
+
+        <!-------------- Start of About Me Section ------------------>
+        <section>
+            <div class="main_heading">
+                <div class="left_side1">
+                    <img src="images/about.jpg" alt="About me Image">
+                </div>
+                <div class="right_side1">
+                    <h1>About Me</h1>
+                    <p>
+                        I am a highly motivated and detail-oriented Software
+                        Engineer
+                        with a passion for creating innovative digital
+                        solutions.
+                        I have a strong foundation in mathematics and computer
+                        science,
+                        which enables me to approach complex problems with a
+                        logical
+                        and analytical mindset. I am proficient in a wide range
+                        of
+                        frontend technologies, including HTML, CSS, JavaScript,
+                        React,
+                        and Angular, and I am constantly learning and adapting
+                        to new
+                        technologies to stay ahead of the curve.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-------------- End of About Me Section ------------------>
+
+    </body>
+</html>
